@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Samsung Z Flip 5",
+    "color": "Black",
+    "quantity": 10,
+    "images": [
+      {
+        "type": "thumbnail",
+        "url": "https://example.com/"
+      },
+      {
+        "type": "detail",
+        "url": "https://example.com/"
+      }
+    ]
+  },
+  {
+    "title": "Iphone 15 Pro Max",
+    "color": "Titan",
+    "quantity": 20,
+    "images": [
+      {
+        "type": "thumbnail",
+        "url": "https://example.com/"
+      },
+      {
+        "type": "detail",
+        "url": "https://example.com/"
+      }
+    ]
+  },
+  {
+    "title": "Xiaomi Redmi Note 13 Pro",
+    "color": "Green",
+    "quantity": 15,
+    "images": [
+      {
+        "type": "thumbnail",
+        "url": "https://example.com/"
+      },
+      {
+        "type": "detail",
+        "url": "https://example.com/"
+      }
+    ]
+  }
+]

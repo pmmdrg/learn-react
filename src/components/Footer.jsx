@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { decrement, increment, incrementWithAmount } from '../redux/countSlice';
 
+const cars = ['BMW', 'Volvo', 'Lamborghini', 'Audi', 'Ferrari'];
+
 const Footer = () => {
   const [amount, setAmount] = useState(0);
   const dispatch = useDispatch();
@@ -30,6 +32,11 @@ const Footer = () => {
       <button onClick={handleIncrease}>Increase</button>
       <div>{count}</div>
       <button onClick={handleDecrease}>Decrease</button>
+      <ul>
+        {cars.map((car, index) => {
+          return <li key={index}>{car}</li>;
+        })}
+      </ul>
     </>
   );
 };
