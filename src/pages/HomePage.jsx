@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import axios from 'axios';
 import { axiosInstance } from '../configs/axiosInstance.js';
 import { getProducts } from '../services/productServices.js';
+import { Button } from '@mui/material';
 
 export const TempContext = createContext(null);
 
@@ -77,6 +78,7 @@ const HomePage = () => {
         })}
       </ul>
       <br />
+      <Button variant='contained'>Demo MUI</Button>
       <Footer />
     </>
   );
